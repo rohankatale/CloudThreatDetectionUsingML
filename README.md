@@ -105,14 +105,6 @@ Upon detection of anomalies:
 -   Details include potential attack type and timestamp.
 -   SMTP client (e.g., Python's `smtplib`) used for notification delivery.
 
-## 👥 Team Members
-
--   Rohan Katale
--   Nikhil Prajapati
--   Shreyansh Kachhadiya
--   Nikit Patidar
-
-*Under the supervision of Dr. Shivangi Shukla, IIIT Pune*
 
 ## 📄 License
 
