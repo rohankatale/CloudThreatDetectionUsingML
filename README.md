@@ -9,10 +9,10 @@ The core objective of this project is to build a cost-effective, scalable, and r
 ## 🚀 Features
 
 -   Real-time attack simulation (DoS, DDoS, SQLi) using HULK, Metasploit, and SQLMap
--   Packet capture via `tcpdump` and flow generation using CICFlowMeter
+-   Packet capture via `tcpdump` and converted into csv file by generalising with 80 features using CICFlowMeter
 -   Dimensionality reduction using Principal Component Analysis (PCA)
 -   Deep learning models: ANN (deployed), CNN, LSTM (evaluated)
--   Deployed on AWS EC2 (t2.micro, Free Tier)
+-   Deployed on AWS EC2 (t2.micro, Free Tier) 
 -   Automated alerting via SMTP email notifications
 
 ## 🏗️ Architecture
@@ -20,16 +20,6 @@ The core objective of this project is to build a cost-effective, scalable, and r
 ![Architecture Diagram](path/to/your/image.png)
 
 
-## 📁 Repository Structure
-.
-├── ANN.ipynb # ANN model training and evaluation
-├── CNN.ipynb # CNN model experiments
-├── LSTM.ipynb # LSTM model experiments
-├── capture_and_process.sh # Bash script for packet capture and flow generation
-├── requirements.txt # Python dependencies
-├── /packet_captures # Generated .pcap files (created at runtime)
-├── /flow_logs # Generated .csv flow logs
-└── README.md # This file
 ## ⚙️ Setup Instructions
 
 1.  **Clone the repository:**
@@ -37,7 +27,7 @@ The core objective of this project is to build a cost-effective, scalable, and r
     git clone https://github.com/<your-username>/cloud-threat-detection.git
     cd cloud-threat-detection
     ```
-    *(Replace `<your-username>` with your actual GitHub username or the repository's origin.)*
+    
 
 2.  **Launch EC2 Instance (Ubuntu 24.04):**
     *   **Type:** `t2.micro` (Free Tier eligible)
@@ -51,7 +41,7 @@ The core objective of this project is to build a cost-effective, scalable, and r
     sudo apt update && sudo apt install -y tcpdump openjdk-17-jdk python3-venv
     ```
 
-4.  **Set Up CICFlowMeter:**
+4.  **Set Up CICFlowMeter in your local EC2 instance:**
     Install CICFlowMeter natively using Gradle:
     ```bash
     cd ~
