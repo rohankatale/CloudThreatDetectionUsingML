@@ -17,7 +17,7 @@ The core objective of this project is to build a cost-effective, scalable, and r
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](public/btp-color-flow.png)
+![Architecture Diagram](public/IDS Flow Chart.png)
 
 
 ## ⚙️ Setup Instructions
