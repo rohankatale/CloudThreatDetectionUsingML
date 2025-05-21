@@ -88,7 +88,7 @@ The core objective of this project is to build a cost-effective, scalable, and r
 
 -   **Name:** CSE-CIC-IDS2018
 -   **Source:** Canadian Institute for Cybersecurity (CIC)
--   **Features:** 80+ features, 14 attack types including DoS, DDoS, Brute Force, SQLi, etc.
+-   **Features:** 80 features, 14 attack types including DoS, DDoS, Brute Force, SQLi, etc.
 
 ## 🧪 Attack Tools Used
 
